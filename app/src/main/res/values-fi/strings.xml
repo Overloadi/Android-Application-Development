@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstAndroidApp</string>
+    <string name="hello_world">Terve maailma!</string>
+    <string name="hello_world_land">Terve vaakatasossa!</string>
+</resources>
