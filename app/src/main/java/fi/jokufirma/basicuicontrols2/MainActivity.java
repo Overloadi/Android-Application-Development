@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.login);
         ArrayAdapter<String> aa = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line, new String[] {"Matti","Jooseppi","Joonas","Aatu","Eetu"});
         actv.setAdapter(aa);
+        /// button
         final Button button = (Button) findViewById(R.id.loginButton);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
