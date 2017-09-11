@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LaunchMap</string>
+    <string name="titleText">Give a location (latitude, longitude)</string>
+    <string name="buttonText">Show location on map</string>
+</resources>
