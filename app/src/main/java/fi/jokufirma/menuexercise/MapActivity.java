@@ -7,11 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-
-/**
- * Created by K1625 on 14.9.2017.
- */
-
 public class MapActivity extends AppCompatActivity implements View.OnClickListener {
     private int note_id = 1;
     @Override
@@ -23,6 +18,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
+    // Luo ilmoituksen, kun painetaan nappia
     @Override
     public void onClick(View v) {
         Notification note = new Notification.Builder(this)
@@ -36,7 +32,5 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         note_id++;
         noteManager.notify(note_id, note);
     }
-
-
 }
 

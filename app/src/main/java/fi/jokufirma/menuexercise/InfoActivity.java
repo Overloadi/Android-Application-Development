@@ -8,10 +8,6 @@ import android.view.View;
 import android.widget.Button;
 
 
-/**
- * Created by K1625 on 14.9.2017.
- */
-
 public class InfoActivity extends AppCompatActivity implements View.OnClickListener {
     private int note_id = 100;
 
@@ -25,6 +21,7 @@ public class InfoActivity extends AppCompatActivity implements View.OnClickListe
 
     }
 
+    // Luo ilmoituksen, kun painetaan nappia
     @Override
     public void onClick(View v) {
         Notification note = new Notification.Builder(this)
